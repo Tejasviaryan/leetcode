@@ -27,8 +27,11 @@ public:
         while (j < n)
             nums[k++] = nums2[j++];
 
-	
-        nums1 = nums;
+	for(int i=0;i<m+n;i++)
+    {
+         nums1[i] = nums[i];
+    }
+       
     
     }
 };
