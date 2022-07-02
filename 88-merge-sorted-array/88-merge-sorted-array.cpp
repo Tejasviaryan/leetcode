@@ -1,7 +1,7 @@
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
-               vector<int> nums(m + n, 0); // make a new vector with size (m+n)
+               vector<int> nums(m+n,0);// make a new vector with size (m+n)
         int i = 0; // pointer to keep track for num1
 		int j = 0; // pointer to keep track for num2
 		int k = 0; // pointer to keep track for new vector nums
