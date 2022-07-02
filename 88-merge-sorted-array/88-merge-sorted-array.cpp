@@ -14,7 +14,7 @@ public:
         while (i < m && j < n)
         {
             // element of num1 is smaller, we will insert that in nums
-            if (nums1[i] < nums2[j])
+            if (nums1[i] <= nums2[j])
                 nums[k++] = nums1[i++];
 			// element of num2 is smaller, we will insert that in nums
             else
